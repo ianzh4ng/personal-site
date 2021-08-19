@@ -1,0 +1,18 @@
+.iconCard {
+  display: flex;
+  width: 21rem;
+  align-items: center;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+
+  &:not(:last-child) {
+    margin-bottom: 2.5rem;
+  }
+
+  .icon {
+    margin-right: 2rem;
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+  }
+}
