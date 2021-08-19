@@ -9,6 +9,6 @@ export interface IconCardProps {
 export const IconCard: React.FC<IconCardProps> = ({ Icon, children }) => (
   <div className={styles.iconCard}>
     <Icon className={styles.icon} />
-    {children}
+    <div className={styles.textContent}>{children}</div>
   </div>
 );

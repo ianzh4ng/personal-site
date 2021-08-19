@@ -1,8 +1,7 @@
 .iconCard {
   display: flex;
-  width: 21rem;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.7rem;
 
   &:not(:last-child) {
@@ -14,5 +13,10 @@
     width: 2rem;
     height: 2rem;
     flex-shrink: 0;
+  }
+
+  .textContent {
+    display: flex;
+    flex-direction: column;
   }
 }

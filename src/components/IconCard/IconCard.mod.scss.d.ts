@@ -2,6 +2,7 @@ declare namespace IconCardModScssNamespace {
   export interface IIconCardModScss {
     icon: string;
     iconCard: string;
+    textContent: string;
   }
 }
 
