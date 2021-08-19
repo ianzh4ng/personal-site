@@ -4,10 +4,8 @@ import styles from './App.mod.scss';
 
 export const App = () => (
   <div className={styles.app}>
-    <div className={styles.contentWrapper}>
-      <Header />
-      <ContentSection />
-      <Footer />
-    </div>
+    <Header />
+    <ContentSection />
+    <Footer />
   </div>
 );

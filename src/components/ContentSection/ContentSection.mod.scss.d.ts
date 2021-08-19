@@ -1,7 +1,6 @@
 declare namespace ContentSectionModScssNamespace {
   export interface IContentSectionModScss {
     contentSection: string;
-    contentWrapper: string;
   }
 }
 
