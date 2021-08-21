@@ -7,17 +7,11 @@ export const Footer = () => (
   <footer className={styles.footer}>
     <div className={styles.footerText}>{i18n.footerText}</div>
     <div className={styles.iconBar}>
-      <a href="https://www.linkedin.com/in/ian-zhang/">
-        <Icon
-          name="linkedIn"
-          iconProps={{
-            onClick: () => {
-              gtag('event', 'click', { event_category: 'View LinkedIn' });
-            },
-          }}
-        />
-      </a>
-      <a href="mailto:ianzh4ng@gmail.com">
+      <a
+        href="mailto:ianzh4ng@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Icon
           name="envelope"
           iconProps={{
@@ -27,8 +21,35 @@ export const Footer = () => (
           }}
         />
       </a>
+      <a
+        href="https://github.com/ianzh4ng"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Icon
+          name="github"
+          iconProps={{
+            onClick: () => {
+              gtag('event', 'click', { event_category: 'View GitHub' });
+            },
+          }}
+        />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/ian-zhang/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Icon
+          name="linkedIn"
+          iconProps={{
+            onClick: () => {
+              gtag('event', 'click', { event_category: 'View LinkedIn' });
+            },
+          }}
+        />
+      </a>
     </div>
-
     <div className={styles.copyright}>{i18n.copyright}</div>
   </footer>
 );

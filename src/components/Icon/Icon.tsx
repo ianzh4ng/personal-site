@@ -3,6 +3,7 @@ import { IconType, IconBaseProps } from 'react-icons';
 import {
   FaEnvelope,
   FaExternalLinkAlt,
+  FaGithub,
   FaLinkedin,
   FaMapMarkerAlt,
   FaSuitcase,
@@ -17,6 +18,7 @@ export interface IconProps {
 export type IconName =
   | 'envelope'
   | 'externalLink'
+  | 'github'
   | 'linkedIn'
   | 'mapMarker'
   | 'suitcase'
@@ -25,6 +27,7 @@ export type IconName =
 const iconMap: Record<IconName, IconType> = {
   envelope: FaEnvelope,
   externalLink: FaExternalLinkAlt,
+  github: FaGithub,
   linkedIn: FaLinkedin,
   mapMarker: FaMapMarkerAlt,
   suitcase: FaSuitcase,
