@@ -1,13 +1,15 @@
+@import 'src/styles/Colors.scss';
+
 .textLink {
   color: inherit;
   text-decoration: underline;
 
   &:hover {
-    color: #e8a300;
+    color: $orange;
   }
 
   &:active {
-    color: #ffda70;
+    color: $orange-lite;
   }
 
   .externalIcon {
