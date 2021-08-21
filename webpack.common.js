@@ -34,10 +34,6 @@ const cssLoaders = {
 
 module.exports = {
   entry: './index.tsx',
-  mode: 'development',
-  devServer: {
-    contentBase: './build',
-  },
   // options related to how webpack emits results
   output: {
     filename: 'bundle.js',
