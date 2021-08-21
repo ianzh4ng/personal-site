@@ -1288,6 +1288,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/gtag.js@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@types/gtag.js/-/gtag.js-0.0.7.tgz#ac3c2008a5f943fa503d17355a8a8bbc80b603ed"
+  integrity sha512-Kl5beBoB0OXw7WeFgHHpLEchvC7HyIu3v1AksNNTemAF6jmEmQGqhZQSHcG6BOU/Lq0xsByQNqLzicLPjVkxYQ==
+
 "@types/html-minifier-terser@^5.0.0":
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/@types/html-minifier-terser/-/html-minifier-terser-5.1.2.tgz#693b316ad323ea97eed6b38ed1a3cc02b1672b57"

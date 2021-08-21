@@ -5,11 +5,13 @@ import styles from './TextLink.mod.scss';
 export interface TextLinkProps {
   href: string;
   external?: boolean;
+  onClick?: (e: React.MouseEvent) => void;
 }
 
 export const TextLink: React.FC<TextLinkProps> = ({
   href,
   external,
+  onClick,
   children,
 }) => (
   <a
@@ -17,6 +19,7 @@ export const TextLink: React.FC<TextLinkProps> = ({
     href={href}
     target="_blank"
     rel="noopener noreferrer"
+    onClick={onClick}
   >
     {children}
     {external && (

@@ -8,10 +8,24 @@ export const Footer = () => (
     <div className={styles.footerText}>{i18n.footerText}</div>
     <div className={styles.iconBar}>
       <a href="https://www.linkedin.com/in/ian-zhang/">
-        <Icon name="linkedIn" />
+        <Icon
+          name="linkedIn"
+          iconProps={{
+            onClick: () => {
+              gtag('event', 'click', { event_category: 'View LinkedIn' });
+            },
+          }}
+        />
       </a>
       <a href="mailto:ianzh4ng@gmail.com">
-        <Icon name="envelope" />
+        <Icon
+          name="envelope"
+          iconProps={{
+            onClick: () => {
+              gtag('event', 'click', { event_category: 'Hit Mail' });
+            },
+          }}
+        />
       </a>
     </div>
 
