@@ -33,7 +33,7 @@ const cssLoaders = {
 };
 
 module.exports = {
-  entry: './index.tsx',
+  entry: 'src/index.tsx',
   // options related to how webpack emits results
   output: {
     filename: 'bundle.js',
@@ -51,8 +51,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'index.html',
-      favicon: 'src/assets/favicon/favicon.ico',
+      template: 'public/index.html',
+      favicon: 'public/favicon.ico',
     }),
   ],
 };
