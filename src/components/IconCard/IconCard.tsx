@@ -1,14 +1,14 @@
 import React from 'react';
 import styles from './IconCard.mod.scss';
-import { IconType } from 'react-icons';
+import { Icon, IconName } from '../Icon/Icon';
 
 export interface IconCardProps {
-  Icon: IconType;
+  iconName: IconName;
 }
 
-export const IconCard: React.FC<IconCardProps> = ({ Icon, children }) => (
+export const IconCard: React.FC<IconCardProps> = ({ iconName, children }) => (
   <div className={styles.iconCard}>
-    <Icon className={styles.icon} />
+    <Icon name={iconName} iconProps={{ className: styles.icon }} />
     <div className={styles.textContent}>{children}</div>
   </div>
 );

@@ -9,14 +9,12 @@
   }
 
   .icon {
-    margin-right: 2rem;
-    width: 2rem;
-    height: 2rem;
     flex-shrink: 0;
   }
 
   .textContent {
     display: flex;
     flex-direction: column;
+    margin-left: 32px;
   }
 }

@@ -17,6 +17,14 @@
     a {
       color: inherit;
       text-decoration: none;
+
+      &:hover {
+        color: #e8a300;
+      }
+
+      &:active {
+        color: #ffda70;
+      }
     }
   }
 

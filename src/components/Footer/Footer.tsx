@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaLinkedin } from 'react-icons/fa';
+import { Icon } from '../Icon/Icon';
 import styles from './Footer.mod.scss';
 import i18n from 'src/content/content';
 
@@ -8,10 +8,10 @@ export const Footer = () => (
     <div className={styles.footerText}>{i18n.footerText}</div>
     <div className={styles.iconBar}>
       <a href="https://www.linkedin.com/in/ian-zhang/">
-        <FaLinkedin size="2rem" />
+        <Icon name="linkedIn" />
       </a>
       <a href="mailto:ianzh4ng@gmail.com">
-        <FaEnvelope size="2rem" />
+        <Icon name="envelope" />
       </a>
     </div>
 

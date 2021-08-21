@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaExternalLinkAlt } from 'react-icons/fa';
+import { Icon } from '../Icon/Icon';
+import styles from './TextLink.mod.scss';
 
 export interface TextLinkProps {
   href: string;
@@ -12,17 +13,16 @@ export const TextLink: React.FC<TextLinkProps> = ({
   children,
 }) => (
   <a
-    className="textLink"
+    className={styles.textLink}
     href={href}
     target="_blank"
     rel="noopener noreferrer"
-    style={{ textDecoration: 'underline', color: 'inherit' }}
   >
     {children}
     {external && (
-      <FaExternalLinkAlt
-        size="0.7rem"
-        style={{ marginLeft: '0.2em', marginBottom: '0.15rem' }}
+      <Icon
+        name="externalLink"
+        iconProps={{ className: styles.externalIcon }}
       />
     )}
   </a>

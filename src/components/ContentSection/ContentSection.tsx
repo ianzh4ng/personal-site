@@ -1,12 +1,11 @@
 import React from 'react';
 import { IconCard, TextLink } from 'src/components';
-import { FaMapMarkerAlt, FaSuitcase, FaTableTennis } from 'react-icons/fa';
 import styles from './ContentSection.mod.scss';
 import i18n from 'src/content/content';
 
 export const ContentSection = () => (
   <section className={styles.contentSection}>
-    <IconCard Icon={FaSuitcase}>
+    <IconCard iconName="suitcase">
       <div>{i18n.jobText1}</div>
       <div>
         {i18n.jobText2}
@@ -18,11 +17,11 @@ export const ContentSection = () => (
         </TextLink>
       </div>
     </IconCard>
-    <IconCard Icon={FaTableTennis}>
+    <IconCard iconName="tableTennis">
       <div>{i18n.hobbyText1}</div>
       <div>{i18n.hobbyText2}</div>
     </IconCard>
-    <IconCard Icon={FaMapMarkerAlt}>
+    <IconCard iconName="mapMarker">
       <div>{i18n.locationText1}</div>
       <div>{i18n.locationText2}</div>
     </IconCard>
