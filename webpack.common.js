@@ -1,7 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const jsLoaders = {
+const jsLoadingRules = {
   test: /\.(ts|js)(x?)$/,
   exclude: /node_modules/,
   use: {
@@ -9,7 +9,7 @@ const jsLoaders = {
   },
 };
 
-const cssLoaders = {
+const cssLoadingRules = {
   test: /\.mod\.scss|\.css$/,
   use: [
     'style-loader',
@@ -47,7 +47,7 @@ module.exports = {
   },
   // configuration regarding modules
   module: {
-    rules: [jsLoaders, cssLoaders],
+    rules: [jsLoadingRules, cssLoadingRules],
   },
   plugins: [
     new HtmlWebpackPlugin({
