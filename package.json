@@ -1,7 +1,7 @@
 {
-  "name": "personal-site-remastered",
+  "name": "personal-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "Minimalistic personal website built with React",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ianzh4ng/personal-site-remastered.git"
+    "url": "git+https://github.com/ianzh4ng/personal-site.git"
   },
-  "author": "",
+  "author": "Ian Zhang <ianzh4ng@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ianzh4ng/personal-site-remastered/issues"
+    "url": "https://github.com/ianzh4ng/personal-site/issues"
   },
-  "homepage": "https://github.com/ianzh4ng/personal-site-remastered#readme",
+  "homepage": "https://github.com/ianzh4ng/personal-site#readme",
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
