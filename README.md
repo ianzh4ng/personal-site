@@ -1,4 +1,4 @@
-# [ianzhang.io](https://www.ianzhang.io/)
+# <div style="text-align: center">[ianzhang.io](https://www.ianzhang.io/)</div>
 
 A minimalistic personal website built with React.
 
