@@ -8,16 +8,18 @@
   </a>
 </div>
 
-## Setup
+## Getting started
 
-1. Install dependencies.
+```bash
+# Clone the repository.
+git clone https://github.com/ianzh4ng/personal-site.git
 
-```
+# Install dependencies.
 yarn install
-```
 
-2. Start dev server.
-
-```
+# Start development server.
 yarn start
+
+# Generate production build.
+yarn build
 ```
