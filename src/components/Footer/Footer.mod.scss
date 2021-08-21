@@ -3,4 +3,24 @@
   flex-direction: column;
   align-items: center;
   padding: 3rem 0;
+
+  .footerText {
+    font-size: 1.1rem;
+  }
+
+  .iconBar {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    padding: 3rem 0;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+
+  .copyright {
+    font-size: 0.9rem;
+  }
 }

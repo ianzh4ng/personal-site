@@ -5,29 +5,16 @@ import i18n from 'src/content/content';
 
 export const Footer = () => (
   <footer className={styles.footer}>
-    <div style={{ fontSize: '1.2rem' }}>{i18n.footerText}</div>
-    <div
-      style={{
-        display: 'flex',
-        width: '7rem',
-        justifyContent: 'space-between',
-        padding: '3rem 0',
-      }}
-    >
-      <a
-        href="https://www.linkedin.com/in/ian-zhang/"
-        style={{ color: 'inherit', textDecoration: 'none' }}
-      >
+    <div className={styles.footerText}>{i18n.footerText}</div>
+    <div className={styles.iconBar}>
+      <a href="https://www.linkedin.com/in/ian-zhang/">
         <FaLinkedin size="2rem" />
       </a>
-      <a
-        href="mailto:ianzh4ng@gmail.com"
-        style={{ color: 'inherit', textDecoration: 'none' }}
-      >
+      <a href="mailto:ianzh4ng@gmail.com">
         <FaEnvelope size="2rem" />
       </a>
     </div>
 
-    <div style={{ fontSize: '0.9rem' }}>{i18n.copyright}</div>
+    <div className={styles.copyright}>{i18n.copyright}</div>
   </footer>
 );

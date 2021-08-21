@@ -1,6 +1,9 @@
 declare namespace FooterModScssNamespace {
   export interface IFooterModScss {
+    copyright: string;
     footer: string;
+    footerText: string;
+    iconBar: string;
   }
 }
 
