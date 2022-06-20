@@ -10,7 +10,7 @@ export const ContentSection = () => (
       <div>
         {i18n.jobText2}
         <TextLink
-          href="https://drive.google.com/file/d/1hRZlWG9PBJkx4ERYPccFb17JZkisyB82/view?usp=sharing"
+          href="https://drive.google.com/file/d/1I4nbEVARO4rU3ouNHyBn1bFpXvkQl0-H/view?usp=sharing"
           external
           onClick={() => {
             gtag('event', 'click', { event_category: 'View Resume' });
